@@ -8,4 +8,5 @@ int main() {
 	printf(sizeof(i));
 	printf(sizeof(d));
 	printf(sizeof(c));
+	return (0);
 }
