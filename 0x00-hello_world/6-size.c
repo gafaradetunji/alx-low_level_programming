@@ -10,8 +10,6 @@ int main(void) {
 	double d;
 	char c;
 
-	printf(sizeof(i));
-	printf(sizeof(d));
-	printf(sizeof(c));
+	printf("Size of a double: %lu byte(s)\n",sizeof(d));
 	return (0);
 }
