@@ -4,6 +4,8 @@
 /* more headers goes there
 *
 * betty style doc for function main goes there
+* Main - this prints the last digit of the random number in variable n
+* Return: 0 if (successful)
 */
 int main(void)
 {
@@ -20,7 +22,7 @@ int main(void)
 	{
 		printf("and is 0\n");
 	}
-	else if (n % 10 < 6 && n % 10 != 0)
+	else
 	{
 		printf("and is less 6 and not 0\n");
 	}
