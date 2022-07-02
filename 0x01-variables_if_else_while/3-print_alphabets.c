@@ -13,10 +13,10 @@ int main(void)
 		alpha++;
 	}
 	alpha = 'A';
-	while (ALPHA == 'Z')
+	while (alpha == 'Z')
 	{
-		putchar(ALPHA);
-	        ALPHA++;
+		putchar(alpha);
+	        alpha++;
 	}
 	putchar('\n');
 
