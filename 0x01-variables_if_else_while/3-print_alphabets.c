@@ -8,15 +8,15 @@ int main(void)
 {
 	char alpha = 'a';
 	char ALPHA = 'A';
-	while (alpha = 'z')
+	while (alpha == 'z')
 	{
 		putchar(alpha);
 	}
-	while (ALPHA = 'Z')
+	while (ALPHA == 'Z')
 	{
 		putchar(ALPHA);
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return(0);
 }
