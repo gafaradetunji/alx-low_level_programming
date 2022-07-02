@@ -7,16 +7,16 @@
 int main(void)
 {
 	char alpha = 'a';
-	char ALPHA = 'A';
-	while (alpha == 'z')
+       	while (alpha == 'z')
 	{
 		putchar(alpha);
 		alpha++;
 	}
-	while (ALPHA == 'Z')
+	alpha = 'Z';
+	while (alpha == 'Z')
 	{
-		putchar(ALPHA);
-	        ALPHA++;
+		putchar(alpha);
+	        alpha++;
 	}
 	putchar('\n');
 
