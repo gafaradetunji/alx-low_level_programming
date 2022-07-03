@@ -4,7 +4,8 @@
 /*
 *  more headers goes there
 * * main - the last digit
-*	* @void: empty parameter list for main.
+*
+* @void: empty parameter list for main.
 *
 * Description: print last digit of random number to tell if it is >
 *
