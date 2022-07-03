@@ -2,7 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there
-*betty style doc for function main goes there
+*main - prints alphabet
+*	@void: empty parameter list for main.
+*
+*	Description: print the alphabet in lower and upper case
+*	can only use putchar
+*
+*	Return: Always 0 (Success)
 */
 int main(void)
 {

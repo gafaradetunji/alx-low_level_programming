@@ -3,7 +3,12 @@
 #include <time.h>
 /* more headers goes there
 *
-* betty style doc for function main goes there
+* main - prints base 10 numbers
+*	@void: empty parameter for main.
+*
+*	Description: prints numbers 0-9
+*
+*	Return: Always 0 (Success)
 */
 int main(void)
 {

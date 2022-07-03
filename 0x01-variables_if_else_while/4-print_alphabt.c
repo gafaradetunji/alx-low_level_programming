@@ -3,7 +3,14 @@
 #include <time.h>
 /* more headers goes there
  *
-* betty style doc for function main goes there
+* main - prints alphabet
+*	@void: empty parameter list form main.
+*
+*	Description: prints the alphabet in lowercase
+*	skip q and e
+*	can only use putchar
+*
+*	Return: Always 0 (Success)
 */
 int main(void)
 {

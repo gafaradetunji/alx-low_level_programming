@@ -3,7 +3,12 @@
 #include <time.h>
 /* more headers goes there
 *
-* betty style doc for function main goes there
+* main - prints base 16
+ *	@void: empty parameter list for main.
+ *
+ *	Description: prints all hexadecimals
+ *
+ *	Return: Always 0 (Success)
 */
 int main(void)
 {
