@@ -3,7 +3,12 @@
 #include <time.h>
 /* more headers goes there
 *
-* betty style doc for function main goes there
+* main - writes 0-9
+ *	@void: empty parameter list for main.
+ *
+ *	Description: writes 0-9 with comma and space
+ *
+ *	Return: Always 0 (Success)
 */
 int main(void)
 {

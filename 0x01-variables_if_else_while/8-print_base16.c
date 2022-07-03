@@ -13,17 +13,18 @@
 int main(void)
 {
     int num = 1;
-    while(num <= 9)
+
+    while (num <= 9)
     {
-        putchar(num);
+        putchar (num);
         num++;
     }
     num = 10;
-    while(num <= 16)
+    while (num <= 16)
     {
-        putchar(num);
+        putchar (num);
         num++;
     }
-    putchar('\n');
+    putchar ('\n');
     return (0);
 }

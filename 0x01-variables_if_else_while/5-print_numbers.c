@@ -13,10 +13,11 @@
 int main(void)
 {
     int num = 1;
-    while(num <= 10){
-        putchar(num);
+    
+    while (num <= 10){
+        putchar (num);
         num++;
     }
-    putchar('\n');
+    putchar ('\n');
     return (0);
 }
