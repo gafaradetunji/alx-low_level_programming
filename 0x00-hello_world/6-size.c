@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /*
- * Main - Entry point
+ * Main - Prints out all the sizes of each variable 
+ 
  * Return: Always 0 (success)
  */
 
