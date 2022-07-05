@@ -6,7 +6,7 @@
 * Returns 0
 */
 
-int(main)
+int main(void)
 {
     _putchar('-');
     _putchar('p');
