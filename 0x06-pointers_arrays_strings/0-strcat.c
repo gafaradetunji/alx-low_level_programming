@@ -6,13 +6,17 @@
 * Return - Always 0
 */
 
-int main(void){
-    char dest[5] = "Hello";
-    char src[] = "World\n";
-    char *ptr;
+char *_strcat(char *dest, char *src)
 
-    printf("%s\n", dest);
-    printf("%s\n", src);
-    ptr = _strcat(dest, src);
-    printf("%s\n", ptr);
+{
+
+int index = 0;
+int dest_len = 0;
+
+while (dest[index++])
+dest_len++;
+for (index = 0; src[index]; index++)
+dest[dest_len++] = src[index];
+return (dest);
+
 }
