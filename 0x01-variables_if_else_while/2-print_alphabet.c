@@ -3,14 +3,23 @@
 #include <time.h>
 /* more headers goes there
  *
-* betty style doc for function main goes there
+* main - Prints alphabet
+*	@void: empty parameter list for main.
+*
+*	Description: prints the alphabet in lower case
+*	can only use putchar
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-	for(char alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	char alphabet = 'a';
+
+	while (alphabet <= 'z')
 	{
-		putchar(alphabet);
-		putchar("\n");
+		putchar (alphabet);
+		alphabet++;
 	}
+	putchar ('\n');
 	return(0);
 }

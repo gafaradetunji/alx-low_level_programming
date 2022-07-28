@@ -3,16 +3,20 @@
 #include <time.h>
 /*
 *  more headers goes there
-* betty style doc for function main goes there
-* Main - this prints the last digit of the random number in variable n
+* * main - the last digit
 *
-* Return: 0 if (successful)
+* @void: empty parameter list for main.
+*
+* Description: print last digit of random number to tell if it is >
+*
+*	Return: Always 0 (Success)
 *
 */
 int main(void)
 {
 	int n;
 	srand(time(0));
+	
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	printf("Last digit of %d is %d", n, n % 10);
