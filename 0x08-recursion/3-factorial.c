@@ -18,5 +18,3 @@ int factorial(int n)
 	}
 	return (n * factorial(n - 1));
 }
-Footer
-© 2022 GitHub, Inc.
